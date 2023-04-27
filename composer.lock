@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4c2e73c56a2732589e39cd1f2353ff08",
+    "packages": [
+        {
+            "name": "slayer-tech/framework-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slayer-tech/framework-core.git",
+                "reference": "840b9292502ebb0942a90c58090218e46459849a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slayer-tech/framework-core/zipball/840b9292502ebb0942a90c58090218e46459849a",
+                "reference": "840b9292502ebb0942a90c58090218e46459849a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "default-branch": true,
+            "type": "project",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Framework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Solodilov Kirill",
+                    "email": "lamtasher11@gmail.com"
+                }
+            ],
+            "description": "PHP framework core",
+            "support": {
+                "issues": "https://github.com/slayer-tech/framework-core/issues",
+                "source": "https://github.com/slayer-tech/framework-core/tree/main"
+            },
+            "time": "2023-04-27T19:43:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "slayer-tech/framework-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
